@@ -29,7 +29,7 @@ jobs:
         node-version: 12
     - name: Install Surge
       run: npm install -g surge
-    - name: Run surge
+    - name: Run Surge
       run: surge ./BootCamp_Irfan.surge.sh --token ${{Secrets.SURGE_TOKEN}}
     
    
